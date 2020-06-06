@@ -1,0 +1,39 @@
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_name", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_w3_org_1999_02_22_rdf_syntax_ns_type", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}
+
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_emailAddress", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_memberOf", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_takesCourse", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_telephone", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}
+
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_doctoralDegreeFrom", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_mastersDegreeFrom", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_teacherOf", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_worksFor", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}

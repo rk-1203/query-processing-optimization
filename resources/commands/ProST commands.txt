@@ -1,0 +1,10 @@
+LOADER :
+spark-submit --files /usr/local/hadoop/Hive/conf/hive-site.xml --class run.Main /home/eict/Downloads/PRoST-master/loader/target/PRoST-Loader-0.0.1-SNAPSHOT.jar -i /data/original -o dbpedia -lp TT,WPT,VP -s
+QUERY RUN :
+spark-submit --class run.Main /home/eict/Downloads/PRoST-master/query/PRoST-query/target/PRoST-Query-0.0.1-SNAPSHOT.jar --files /usr/local/hadoop/Hive/conf/hive-site.xml -i /home/eict/Desktop/query/q1.txt -d dbpedia -s /usr/local/spark/dbpedia.stats -o /output -wpt
+
+--current status
+ProST loader is running and database is being created. The databases are showing in hive and spark shell
+hive> SHOW DATABASES;
+scala> val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+scala> sqlContext.sql("show databases").show()

@@ -1,0 +1,13 @@
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_emailAddress", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_memberOf", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_takesCourse", "type":["null",{ "type": "array", "items": "string"}]},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_telephone", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}

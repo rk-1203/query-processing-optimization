@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"o", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}

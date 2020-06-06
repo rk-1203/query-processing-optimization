@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_lehigh_edu__zhp2_2004_0401_univ_bench_owl_advisor", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}

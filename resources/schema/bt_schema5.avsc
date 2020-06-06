@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"TextFile",
+    "doc":"Text File",
+    "fields":
+    [
+    {"name":"s", "type":"string"},
+    {"name":"http___www_w3_org_2002_07_owl_imports", "type":["null",{ "type": "array", "items": "string"}]}
+    ]
+}

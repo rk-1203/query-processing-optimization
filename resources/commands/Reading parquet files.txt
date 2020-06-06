@@ -1,0 +1,2 @@
+val newDataDF = sqlContext.read.parquet("/user/hive/warehouse/dbpedia.db/tripletable/part-00153-0166d9f2-fd81-4272-b6f9-4e6560dcf9a5-c000.snappy.parquet")
+newDataDF.show
